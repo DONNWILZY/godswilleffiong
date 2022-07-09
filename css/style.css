@@ -126,7 +126,11 @@ padding-bottom: 70px;
 }
 
 .btn:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
+}
+
+.shadow-dark{
+box-shadow: 0 0 20px rgba(48, 46, 77, 0.5)
 }
 /*  ASIDE SECTION */
 .aside {
@@ -436,7 +440,7 @@ margin:  15px 0;
     }
 
     .about .about-content .skills .skill-item{
-        margin-bottom: 30px;
+        margin-bottom: 25px;
 
     }
 
@@ -454,8 +458,36 @@ margin:  15px 0;
         right: 0;
         color: var(--text-black-900);
         top: -40px;
-        font
+        font-weight: 400;
+        line-height: 40px;
     }
 
+.about .about-content .education, .about .about-content .experience{
+     flex: 0 0 50%;
+     max-width: 50%;
+     margin-top: 30px;
 
+}
 
+.about .about-content h3.title{
+    font-size: 24px;
+    margin-bottom: 3Opx;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.about .about-content .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .timeline{
+    background-color: var(--bg-black-100);
+    padding:  30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.about
