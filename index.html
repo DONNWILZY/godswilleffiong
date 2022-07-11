@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GODSWILL EFFIONG</title>
-    <link rel="stylesheet" href="./css/color-1.css">
+    <link rel="stylesheet" href="./css/skin/color-1.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style-switcher.css">
    
 </head>
 <body>
@@ -38,7 +39,7 @@
 <!-- main content start here -->
     <div class="main-content">
         <!-- home section start here -->
-        <section class="home section hidden ">
+        <section class="home section">
           <div class="container">
                 <div class="row">
                     <div class="home-info padd-15">
@@ -56,7 +57,7 @@
         <!-- home section start here -->
 
          <!-- about section start here -->
-        <section class="about section hidden">
+        <section class="about section ">
             <div class="container">
                 <div class="row">
                     <div class="section-title padd-15"> 
@@ -239,7 +240,7 @@
          <!-- SERVICES section start here -->
          <div class="main-content">
                 <!-- home section start here -->
-                <section class="service section hidden">
+                <section class="service section">
                   <div class="container">
                         <div class="row">
                             <div class="section-title padd-15">
@@ -318,7 +319,7 @@
                 </section>
         <!-- SERVICES section END here -->
          <!-- portfolio section start here -->
-                <section class="portfolio section hidden">
+                <section class="portfolio section ">
                      <div class="container">
                             <div class="row">
                                     <div class="section-title padd-15">
@@ -398,7 +399,76 @@
                                     <h2> CONTACT ME</h2>
                                 </div>                        
                          </div>
-                       <h3 class="#contact-title padd-15"> Do you have any question?</h3>  
+                       <h3 class="contact-title padd-15"> Do you have any question?</h3> 
+                       <h4 class="contact-sub-title padd-15"> i am at your service</h4>
+                       <div class="row">
+                           <!-- contatct info item start here -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"> <i class="fa fa-phone-alt"></i> </div>
+                            <h4>call</h4>
+                            <p>+2349061676729  </p>
+                        </div>
+                            <!-- contatct info item end here -->
+                              <!-- contatct info item start here -->
+                        <div class="contact-info-item padd-15">
+                                <div class="icon"> <i class="fa fa-map-marker"></i> </div>
+                                <h4>Office </h4>
+                                <p>+25 Aka Itiam street, Off Udodoma  </p>
+                            </div>
+                                <!-- contatct info item end here -->
+                                 <!-- contatct info item start here -->
+                                <div class="contact-info-item padd-15">
+                                        <div class="icon"> <i class="fa fa-envelope"></i> </div>
+                                        <h4>Email </h4>
+                                        <p>ask4godswill@gmail.com </p>
+                                    </div>
+                                        <!-- contatct info item end here -->
+                                <div class="contact-info-item padd-15">
+                                        <div class="icon"> <i class="fa fa-globe-europe"></i> </div>
+                                        <h4>Website </h4>
+                                        <p>www.godswilleffiong.com</p>
+                                </div>
+                                        <!-- contatct info item end here -->
+                       </div>
+                       <h3 class="contact-title padd-15"> Send me a maail</h3> 
+                       <h4 class="contact-sub-title padd-15"> I will respond as soon as possible <h4>
+
+                        <!-- !!!: conttct form -->
+                        <div class="row">
+                            <div class="contact-form padd-15">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                           <input type="text" class="form-control" placeholder="Name"> 
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                            <div class="form-group">
+                                               <input type="email" class="form-control" placeholder="Email"> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                   <input type="text" class="form-control" placeholder="Subject"> 
+                                            </div>
+                                        </div>  
+                                </div>  
+                                <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                            <div class="form-group">
+                                                  <textarea class="form-control" name="" id="" placeholder="Message" ></textarea>
+                                            </div>
+                                        </div>  
+                                </div> 
+                                <div class="row">
+                                        <div class="form-item col-12 padd-15">
+                                           <button type="submit" class="btn"> Send</button>
+                                        </div>  
+                                </div> 
+                            </div>
+                        </div>
                 </div>
               </section>  
            <!-- Contact section Start here -->
@@ -407,6 +477,26 @@
 <!-- main main content  end here -->      
 </div>
 <!-- MAIN CONTAINER END HERE -->
+
+<!-- !!!: style switcher  start here-->
+<div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+            <i class="fas fa-moon" ></i> </i>
+        </div>
+    <h4> Theme Colors </h4>
+    <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')">   </span>
+        <span class="color-2" onclick="setActiveStyle('color-2')">   </span>
+        <span class="color-3" onclick="setActiveStyle('color-3')">   </span>
+        <span class="color-4" onclick="setActiveStyle('color-4')">   </span>
+        <span class="color-5" onclick="setActiveStyle('color-5')">   </span>
+    </div>
+    
+</div>
+<!-- !!!: style switcher  end here-->
 
 
 <!-- app.js (internal js) -->
